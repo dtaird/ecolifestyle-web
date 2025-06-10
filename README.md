@@ -6,3 +6,5 @@ EcoLifestyle направлен на то, чтобы помочь людям о
 
 для того чтобы получить доступ к созданию постов в блоге событий в календаре нужен админ-аккаунт при авторизации (email: testadmin@gmail.com, password: 123123)
 user - email: testuser@gmail.com, password: 123123
+
+![](screenshot.png)
