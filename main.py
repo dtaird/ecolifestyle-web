@@ -24,7 +24,7 @@ ckeditor = CKEditor(app)
 Bootstrap(app)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(
-    "DATABASE_URL", "postgres://neondb_owner:npg_vI1EkCRaUwj5@ep-wispy-wave-a46gcu9u-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require")
+    "DATABASE_URL", "postgresql://neondb_owner:npg_vI1EkCRaUwj5@ep-wispy-wave-a46gcu9u-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
